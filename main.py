@@ -1,4 +1,4 @@
-```python
+
 import random
 import re
 import streamlit as st
@@ -321,4 +321,4 @@ st.caption(
     "발음 평가는 간단한 규칙에 따른 참고 점수이며, "
     "실제 발음의 자연스러움을 완벽하게 판단하지는 못해요."
 )
-```
+
