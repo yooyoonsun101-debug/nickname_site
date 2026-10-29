@@ -239,9 +239,10 @@ with st.container(border=True):
         height=110,
     )
 
+    # 닉네임 길이를 2~9글자까지 선택
     length = st.selectbox(
         "닉네임 길이",
-        options=[2, 3, 4],
+        options=list(range(2, 10)),
         format_func=lambda value: f"{value}글자",
     )
 
@@ -321,4 +322,3 @@ st.caption(
     "발음 평가는 간단한 규칙에 따른 참고 점수이며, "
     "실제 발음의 자연스러움을 완벽하게 판단하지는 못해요."
 )
-
